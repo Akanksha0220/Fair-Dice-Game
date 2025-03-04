@@ -1,0 +1,138 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+/* Mode Switch */
+.mode-switch {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.mode-switch button {
+  flex: 1;
+  padding: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mode-switch button.active {
+  background: #444;
+  border-radius: 5px;
+}
+
+/* Bet Section */
+.bet-section {
+  margin-bottom: 10px;
+}
+
+.bet-section label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.bet-input {
+  display: flex;
+  align-items: center;
+  background: #222;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.bet-input input {
+  flex: 1;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.currency {
+  margin-left: 5px;
+  color: #ddd;
+}
+
+.bet-input button {
+  background: #444;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Bet Button */
+.bet-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background: #00ff00;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Slider */
+.slider-container {
+  margin-top: 20px;
+  position: relative;
+}
+
+.slider-container input {
+  width: 100%;
+}
+
+.roll-box {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Betting Controls */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.controls div {
+  flex: 1;
+  text-align: center;
+}
+
+.controls input {
+  width: 80%;
+  padding: 5px;
+  background: #222;
+  color: white;
+  border: none;
+  text-align: center;
+}
